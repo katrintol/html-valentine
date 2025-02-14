@@ -1,0 +1,62 @@
+body {
+    font-family: 'Dancing Script', sans-serif; 
+    background-color: #ffe4e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+   
+}
+*{
+    cursor:url('images/mur.png'), auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-gif img {
+    max-width: 300px;
+    height: auto;
+}
+
+.text-container {
+    text-align: center;
+    color: #E82561;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons-container a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.buttons-container button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttons-container button:hover {
+    background-color: #ff1493;
+}
+
+p { /* Этот стиль можно убрать, так как шрифт уже задан для body */
+    color: #E82561;
+}
+
+.buttons-container { /* Этот стиль тоже можно убрать, так как цвет текста кнопок задан в .buttons-container button */
+    color: #51081e;
+}
